@@ -14,7 +14,7 @@ const user = {
 
 const {
   contactNo,
-  name: { middleName: midName },
+  name: { middleName: midName }, //name alias
 } = user;
 
 // array destructuring
