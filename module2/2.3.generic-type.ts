@@ -17,6 +17,18 @@
   //   const boolArray: Array<boolean> = [true, false, true];
   const boolArray: GenericArray<boolean> = [true, false, true];
 
+  type User = {
+    name: string;
+    age: number;
+  };
+
+  // or,
+
+  interface USer {
+    name: string;
+    age: number;
+  }
+
   const users: GenericArray<{ name: string; age: number }> = [
     {
       name: "Mezba",
