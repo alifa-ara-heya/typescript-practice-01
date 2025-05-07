@@ -16,6 +16,11 @@ const addAll = (...numbers: number[]) => {
 console.log(addAll(1, 2, 3, 4)); //10
 
 // using reduce
+/* The reduce() method takes a callback and an optional initial value.
+
+The callback has two parameters: the accumulator and the current value.
+
+You start the accumulator at 0 and add each number to it. */
 
 const addAllReduce = (...numbers: number[]) =>
   numbers.reduce((sum, current) => sum + current, 0);
